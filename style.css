@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: arial, sans-serif;
+}
+body {
+    font-size: 1.4rem;
+}
+nav ul {
+    width: 100%;
+    height: 5.5rem;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 0.8rem;
+}
+nav a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: inherit;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.g-services-img {
+    width: 25px;
+    height: 25px;
+    margin: 7.2px 7.3px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.g-services-hover {
+    width: 40px;
+    height: 40px;
+}
+.g-services-hover:hover {
+    background-color: rgba(60,64,67,.08);;
+    border-radius: 50%;
+}
+.g-profile-img {
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 82.35rem;
+}
+.google-img-section {
+    width: 100%;
+    height: 29.4rem;
+}
+.google-img-section img {
+    display: block;
+    position: relative;
+    top: 20.3rem;
+    width: 27.2rem;
+    height: 9.2rem;
+    margin: 0 auto;
+}
+.main-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 16rem;
+}
+.main-inputs form {
+    height: 16rem;
+}
+.text-input-desing {
+    display: flex;
+    align-items: center;
+    margin-top: 2.7rem;
+    width: 58.4rem;
+    height: 4.6rem;
+    border: solid 1px #dadce0;
+    border-radius: 5rem;
+}
+.text-input-desing:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+.main_search-icon {
+    background-image: url("https://pngimage.net/wp-content/uploads/2018/06/lupa-de-pesquisa-png-6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 17px;
+    opacity: 0.4;
+    margin-left: 16px;
+}
+.main_text-input {
+    margin-left: 1.5rem;
+    height: 3.4rem;
+    width: 48.7rem;
+    border: none;
+    outline: none;
+}
+.main_micro-icon {
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+.button-input-desing {
+    display: flex;
+    justify-content: center;
+}
+.main_button-input {
+    margin-top: 3rem;
+    height: 3.4rem;
+    font-size: 1.4rem;
+    border: 1px solid #f8f9fa;
+    border-radius: 3px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+}
+.main_button-input:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+.main_button-input:focus {
+    border: 1px solid #4285f4;
+}
+.button-search-1 {
+    margin-right: 1.4rem;
+    width: 15.1rem;
+    padding-right: 0.1rem;
+}
+.button-search-2 {
+    padding-right: 0.4rem;
+    width: 16.5rem;
+}
+.footer-country {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 4.8rem;
+    border-bottom: solid 0.1rem #dadce0;
+}
+.footer-country p {
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #70757a;
+}
+.footer-info {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 4.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.2rem;
+    color: #70757a;
+}
+.footer-info ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 1.3rem;
+}
+.footer-info a {
+    text-decoration: none;
+    color: inherit;
+}
